@@ -1,0 +1,17 @@
+<!-- card.component.html -->
+<div class="product-card">
+    <img [src]="product.img" alt="{{ product.name }}">
+    <p>{{ product.name }}</p>
+    <p>{{ product.price | currency:'EUR':'symbol' }}</p>
+    <button class="fa fa-shopping-cart add-to-cart-button" (click)="addToCart()">Add to Cart</button>
+  </div>
+  <div *ngFor="let i of products">
+  <div class="card" style="width: 18rem;">
+    <img [src]="i.img" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      {{i.name}}
+      {{i.price}}
+    </div>
+  </div>
+</div>

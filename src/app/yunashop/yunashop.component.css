@@ -1,0 +1,25 @@
+.s{
+    border-radius: 200px;
+    width: 500px;
+    border-color: #fff;
+    color: #fff;
+    background-color: transparent;
+   
+    margin-left:  200px;
+}
+
+.fa-search { 
+    position: absolute;
+    z-index: 10 ;
+    right: 41% ;
+    padding-top: 7px;
+}
+.btn-primary {
+    background-color: #FFC0CB ;
+    border-color: transparent;
+    color: #fff;
+}
+.btn-primary:active {
+    background-color: #FFC0CB;
+    border-color: transparent;
+ }
